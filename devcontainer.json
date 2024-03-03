@@ -1,0 +1,21 @@
+{
+  "name": "Playwright",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "playwright",
+  "workspaceFolder": "/work",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "zsh"
+      },
+      "extensions": [
+        "ms-playwright.playwright"
+      ]
+    }
+  },
+  "containerEnv": {
+    "TZ": "Asia/Tokyo"
+  }
+}

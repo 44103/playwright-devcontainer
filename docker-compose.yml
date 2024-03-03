@@ -1,0 +1,11 @@
+version: "3"
+services:
+  playwright:
+    build: .
+    volumes:
+      - ../:/work
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    working_dir: /work
+    environment:
+      DISPLAY: :0
+    tty: true
