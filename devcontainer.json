@@ -19,9 +19,6 @@
         "mhutchie.git-graph",
         "esbenp.prettier-vscode",
         "christian-kohler.path-intellisense",
-        "csstools.postcss",
-        "dsznajder.es7-react-js-snippets",
-        "bradlc.vscode-tailwindcss",
         "streetsidesoftware.code-spell-checker",
         "ms-playwright.playwright"
       ]
