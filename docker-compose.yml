@@ -4,6 +4,7 @@ services:
     build: .
     volumes:
       - ../:/work
+      - .zsh_history:/root/.zsh_history
       - /tmp/.X11-unix:/tmp/.X11-unix
     working_dir: /work
     environment:

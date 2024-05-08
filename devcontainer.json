@@ -25,7 +25,5 @@
       ]
     }
   },
-  "containerEnv": {
-    "TZ": "Asia/Tokyo"
-  }
+  "initializeCommand": "touch .devcontainer/.zsh_history"
 }
