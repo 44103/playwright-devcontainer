@@ -8,5 +8,6 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix
     working_dir: /work
     environment:
+      TZ: Asia/Tokyo
       DISPLAY: :0
     tty: true
