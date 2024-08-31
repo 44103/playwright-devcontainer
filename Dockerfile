@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright:v1.44.0-jammy
+FROM mcr.microsoft.com/playwright:v1.46.1-jammy
 
 RUN export DEBIAN_FRONTEND="noninteractive" && \
     apt-get update && apt-get -y install --no-install-recommends \
